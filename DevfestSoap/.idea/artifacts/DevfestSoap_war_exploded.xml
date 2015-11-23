@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DevfestSoap:war exploded">
+    <output-path>$PROJECT_DIR$/target/DevfestSoap</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DevfestSoap" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.xml.ws:jaxws-rt:2.1.3" />
+          <element id="library" level="project" name="Maven: javax.xml.ws:jaxws-api:2.1" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.1.6" />
+          <element id="library" level="project" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.3" />
+          <element id="library" level="project" name="Maven: javax.xml.soap:saaj-api:1.3" />
+          <element id="library" level="project" name="Maven: com.sun.xml.stream.buffer:streambuffer:0.7" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: com.sun.xml.stream:sjsxp:1.0" />
+          <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0" />
+          <element id="library" level="project" name="Maven: org.jvnet.staxex:stax-ex:1.2" />
+          <element id="library" level="project" name="Maven: com.sun.org.apache.xml.internal:resolver:20050927" />
+          <element id="library" level="project" name="Maven: org.jvnet:mimepull:1.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/DevfestSoap/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="DevfestSoap/web/Web" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DevfestRest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="DevFestRest.war">
+      <element id="artifact" artifact-name="DevfestRest:war exploded" />
+    </root>
+  </artifact>
+</component>

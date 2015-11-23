@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DevfestRest:war exploded">
+    <output-path>$PROJECT_DIR$/target/DevFestRest</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DevfestRest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet-core:2.4.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:javax.inject:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-server:2.4.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-client:2.4.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:14.0.1" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-api:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-utils:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:hk2-locator:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2.external:cglib:2.2.0-b21" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.core:jersey-common:2.4.1" />
+          <element id="library" level="project" name="Maven: javax.annotation:javax.annotation-api:1.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet:2.4.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/DevFestRest/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="DevfestRest/web/Web" />
+    </root>
+  </artifact>
+</component>
